@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Falcon';
+  src:  url('Falcon.eot?v5qoeu');
+  src:  url('Falcon.eot?v5qoeu#iefix') format('embedded-opentype'),
+    url('Falcon.ttf?v5qoeu') format('truetype'),
+    url('Falcon.woff?v5qoeu') format('woff'),
+    url('Falcon.svg?v5qoeu#Falcon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Falcon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
